@@ -1,0 +1,156 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  color: grey
+}
+
+.main {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-image: url('Untitled-2.svg');
+  background-size: 100%;
+  right: 100px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-left: 40px;
+  padding-right: 10px;
+}
+
+.text-container {
+  position: absolute;
+  height: 100%;
+  width: 50%;
+  float: right;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10
+}
+
+.menu-container {
+  width: 100%;
+  height: 100%;
+  /*height: 20%;*/
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 20px;
+  z-index: 3
+}
+
+
+.about {
+  /*right: 140px;
+  top: -150px;*/
+  position: relative;
+  right: 300px;
+  direction:
+}
+
+
+.projects {
+  /*right: 240px;
+  top: -10px*/
+  position: relative;
+  right: 400px;
+  margin-top: -60px
+}
+
+.text-box:hover {
+  color: black;
+  cursor: pointer;
+}
+
+.contact {
+  /*right: 140px;
+  top: 130px;*/
+  position: relative;
+  right: 330px;
+  margin-top: -50px
+}
+/*
+.name-box {
+  width: 250px;
+}*/
+
+.name {
+  font-size: 60px;
+  text-align: center;
+  margin: 20px 0 0 20px
+}
+
+.name:hover {
+  color: black;
+  cursor: pointer;
+}
+
+.title-box {
+  width: 550px;
+}
+
+.title {
+  font-size: 10px;
+  text-align: center;
+  margin: 0px 0px 0 20px
+}
+
+/*.square {
+  position: absolute;
+  width: 50%;
+  height: 100%;
+	background: #AF004B;
+  z-index: 1
+} */
+
+.wrapper {
+  position: absolute;
+  height: 100%;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+}
+
+.circle {
+  align-self: center;
+	width: 140px;
+	height: 140px;
+	background: white;
+	-moz-border-radius: 70px;
+	-webkit-border-radius: 70px;
+	border-radius: 70px;
+  z-index: 20;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  color: black
+}
+
+.hidden {
+  display: none
+}
+
+/*
+.ray1-padding {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+	background: green;
+}
+
+.ray1 {
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-top: 5em solid transparent;
+  border-right: 5em solid white;
+	border-bottom: 5em solid transparent;
+}*/
